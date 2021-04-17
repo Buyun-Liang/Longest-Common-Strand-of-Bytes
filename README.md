@@ -75,7 +75,7 @@ Offset = 1024 in sample.10
 
 2. This strand is identical between sample.2 and sample.3
  
-3. The corresponding offsets are 3072 and 17408
+3. The corresponding offsets are 3072 in sample.2 and 17408 in sample.3.
 
 Their is no other pairs of files has length of the longest strand of bytes equals 27648.
 
