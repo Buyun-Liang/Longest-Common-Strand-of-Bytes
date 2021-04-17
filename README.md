@@ -9,15 +9,20 @@ The main goal of this program is to find the longest strand of bytes that is ide
 * [Contact](#contact)
 
 ## General Information
-C++
 
-Longest common substring
+The main driver contains two important fuctions: readFile and LCS (longest common substring).
 
-Valgrind prevent memory leak
+readFile() is used to read all 10 files into buffer for further analyzing.
+
+LCS() is the key to find the longest common substring/strand of bytes between any two files. Dynamical programming was used here to improve its efficiency.
+
+
 
 Time Complexity:
 
 Space Complexity:
+
+Valgrind prevent memory leak
 
 ## File Description
 main.cpp is the main driver. 
@@ -68,10 +73,10 @@ Offset = 1024 in sample.10
 
 ## Result
 1. The length of the longest strand of bytes is 27648
-2. 
-3. This strand is identical between sample.2 and sample.3
-4. 
-5. The corresponding offsets are 3072 and 17408
+
+2. This strand is identical between sample.2 and sample.3
+ 
+3. The corresponding offsets are 3072 and 17408
 
 ## Contact
 Created by Buyun Liang [liang664@umn.edu] (https://www.linkedin.com/in/buyun-liang/) - feel free to contact me if you have any questions!
