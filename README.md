@@ -70,11 +70,14 @@ Offset = 9216 in sample.9
 Offset = 1024 in sample.10
 
 ## Result
+
 1. The length of the longest strand of bytes is 27648
 
 2. This strand is identical between sample.2 and sample.3
  
 3. The corresponding offsets are 3072 and 17408
+
+Their is no other pairs of files has length of the longest strand of bytes equals 27648.
 
 ## Contact
 Created by Buyun Liang [liang664@umn.edu] (https://www.linkedin.com/in/buyun-liang/) - feel free to contact me if you have any questions!
