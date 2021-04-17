@@ -14,15 +14,15 @@ The main driver contains two important fuctions: readFile and LCS (longest commo
 
 readFile() is used to read all 10 files into buffer for further analyzing.
 
-LCS() is the key to find the longest common substring/strand of bytes between any two files. Dynamical programming was used here to improve its efficiency.
+LCS() is the key to find the longest common substring/strand of bytes between any two files. Dynamic programming (DP) was used here to improve its efficiency.
 
 
 
 Time Complexity:
 
-Space Complexity:
+Space Complexity: An int array c_table with size m\times n was used to store the results of all subproblems in the DP, also buffer with size O(m) was used to store the bytes of all 10 files. Thus the space complexity is O(mn) + O(m) = O(mn), where m is the number of bytes in file1 and n is the number of bytes in file2. 
 
-Valgrind prevent memory leak
+Besides, memory tool Valgrind was used to prevent memory leak.
 
 ## File Description
 main.cpp is the main driver. 
